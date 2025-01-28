@@ -57,7 +57,7 @@ jobs:
         id: task-def
         uses: aws-actions/amazon-ecs-render-task-definition@v1
         with:
-          task-definition: loan_app_venkatesh.json
+          task-definition: loan_flask_enkatesh.json
           container-name: loan_app_container
           image: ${{ steps.build-image.outputs.image }}
 
