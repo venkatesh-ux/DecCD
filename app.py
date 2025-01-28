@@ -56,5 +56,5 @@ def ping():
     return "Pinging Model!!"
 
 @app.route('/', methods=['GET'])
-def ping():
+def hello():
     return "Hello Venkatesh!!"
