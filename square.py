@@ -1,2 +1,2 @@
-def sqr(a):
-    return a*a
+def sqr(a):   
+     return a*a
