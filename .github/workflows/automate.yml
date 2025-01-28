@@ -25,6 +25,7 @@ jobs:
 
       - name: RUN TEST WITH PYTEST
         run: pytest
+        
   job2:
     needs: job1
     runs-on: ubuntu-latest
